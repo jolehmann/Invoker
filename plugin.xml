@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="edu.kit.kastel.sdq.invoker.handler.InvokerHandler"
+            id="edu.kit.kastel.sdq.invoker.commands.executeInvoker"
+            name="Execute Invoker">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+         <command
+               commandId="edu.kit.kastel.sdq.invoker.commands.executeInvoker"
+               id="edu.kit.kastel.sdq.invoker.menus.invoker"
+               mnemonic="S">
+         </command>
+      </menuContribution>
+   </extension>
+
+</plugin>

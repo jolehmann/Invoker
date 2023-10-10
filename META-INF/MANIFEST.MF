@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Invoker
+Bundle-SymbolicName: edu.kit.kastel.sdq.invoker;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Import-Package: edu.kit.kastel.sdq.accesscontrolgenerator.handlers,
+ org.eclipse.core.resources
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ edu.kit.kastel.sdq.accesscontrolgenerator;bundle-version="1.0.0"
+Automatic-Module-Name: edu.kit.kastel.sdq.invoker
+Bundle-RequiredExecutionEnvironment: JavaSE-17

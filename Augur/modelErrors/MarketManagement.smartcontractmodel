@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SmartContractModel:AccessControlContract xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SmartContractModel="http://sdq.kastel.kit.edu/AccessControlMetamodel/SmartContractModel" xmlns:soliditycontracts="http://sdq.kastel.kit.edu/SolidityMetaModel/soliditycontracts" entityName="MarketManagement">
+  <variables id="_TZTe80xBEeyamoFIdSeJxw" entityName="Market Counter" visibility="private" type="_Q-uS50xBEeyamoFIdSeJxw"/>
+  <variables id="_b-mvQFTxEeybde4cIdM2KA" entityName="Markets" visibility="private" type="_hPbvsVTxEeybde4cIdM2KA"/>
+  <localTypes xsi:type="soliditycontracts:PrimitiveType" id="_Q-uS50xBEeyamoFIdSeJxw" type="uint"/>
+  <localTypes xsi:type="soliditycontracts:ContractType" id="_eZe2SFTxEeybde4cIdM2KA">
+    <contract href="Market.smartcontractmodel#/"/>
+  </localTypes>
+  <localTypes xsi:type="soliditycontracts:CustomArray" id="_hPbvsVTxEeybde4cIdM2KA" type="_eZe2SFTxEeybde4cIdM2KA"/>
+  <functions xsi:type="soliditycontracts:GlobalFunction" id="_oHzuUUxBEeyamoFIdSeJxw" entityName="Create New Market"/>
+</SmartContractModel:AccessControlContract>

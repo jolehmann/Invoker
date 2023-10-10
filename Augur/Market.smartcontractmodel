@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SmartContractModel:AccessControlContract xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SmartContractModel="http://sdq.kastel.kit.edu/AccessControlMetamodel/SmartContractModel" xmlns:soliditycontracts="http://sdq.kastel.kit.edu/SolidityMetaModel/soliditycontracts" entityName="Market">
+  <variables id="_3w1fY0xGEeyamoFIdSeJxw" entityName="Designated Reporter" visibility="private" type="_LyC9N0xCEeyamoFIdSeJxw"/>
+  <variables id="_GY89U0xdEey-QZr4N-F2BA" entityName="Open Reporter" visibility="private" type="_LyC9N0xCEeyamoFIdSeJxw"/>
+  <variables id="_eOEzo0xCEeyamoFIdSeJxw" entityName="Validity Bond" type="_J2Ql90xCEeyamoFIdSeJxw"/>
+  <variables id="_jVag40xCEeyamoFIdSeJxw" entityName="Creation Bond" type="_J2Ql90xCEeyamoFIdSeJxw"/>
+  <variables id="_sLHiA0xdEey-QZr4N-F2BA" entityName="Creation Bond Paid Out" visibility="private" type="_9SPH50xFEeyamoFIdSeJxw"/>
+  <variables id="_m8LMM0xCEeyamoFIdSeJxw" entityName="Shares" visibility="private" type="_dcec9kxVEeyj2PuK7DREcw"/>
+  <variables id="_r6Gcw0xYEeyTx7SMCNNJcA" entityName="Disagree Counter" type="_J2Ql90xCEeyamoFIdSeJxw"/>
+  <variables id="_pV-TI0xYEeyTx7SMCNNJcA" entityName="Agree Counter" type="_J2Ql90xCEeyamoFIdSeJxw"/>
+  <variables id="_sn71I0xCEeyamoFIdSeJxw" entityName="Disputes" visibility="private" type="_SheClkxCEeyamoFIdSeJxw"/>
+  <variables id="_ROx7k0xWEeyj2PuK7DREcw" entityName="Reported Outcome" type="_QEC96UxCEeyamoFIdSeJxw"/>
+  <variables id="__zSIU0xFEeyamoFIdSeJxw" entityName="Created Bonds" visibility="private" type="_9SPH50xFEeyamoFIdSeJxw"/>
+  <variables id="_CrMwo0xGEeyamoFIdSeJxw" entityName="Reporter Set" visibility="private" type="_9SPH50xFEeyamoFIdSeJxw"/>
+  <variables id="_TA1JA0xLEeynGZOoHpf2pA" entityName="Trading Active" visibility="private" type="_9SPH50xFEeyamoFIdSeJxw"/>
+  <variables id="__QXZw0xLEeynGZOoHpf2pA" entityName="Designated Report Allowed" visibility="private" type="_9SPH50xFEeyamoFIdSeJxw"/>
+  <variables id="_ZXLnE0xLEeynGZOoHpf2pA" entityName="Open Report Allowed" visibility="private" type="_9SPH50xFEeyamoFIdSeJxw"/>
+  <variables id="_btSi00xLEeynGZOoHpf2pA" entityName="Disputes Allowed" visibility="private" type="_9SPH50xFEeyamoFIdSeJxw"/>
+  <variables id="_dyWx40xLEeynGZOoHpf2pA" entityName="Settlement Phase Active" visibility="private" type="_9SPH50xFEeyamoFIdSeJxw"/>
+  <variables id="_5vklg0xdEey-QZr4N-F2BA" entityName="Designated Reporter Reported" visibility="private" type="_9SPH50xFEeyamoFIdSeJxw"/>
+  <constructor>
+    <parameters name="Creator" type="_LyC9N0xCEeyamoFIdSeJxw"/>
+  </constructor>
+  <localTypes xsi:type="soliditycontracts:PrimitiveType" id="_J2Ql90xCEeyamoFIdSeJxw" type="uint"/>
+  <localTypes xsi:type="soliditycontracts:PrimitiveType" id="_LyC9N0xCEeyamoFIdSeJxw" type="address"/>
+  <localTypes xsi:type="soliditycontracts:PrimitiveType" id="_9SPH50xFEeyamoFIdSeJxw"/>
+  <localTypes xsi:type="soliditycontracts:DefaultArray" id="_QEC96UxCEeyamoFIdSeJxw" type="string"/>
+  <localTypes xsi:type="soliditycontracts:DefaultArray" id="_jmSo-UxXEeyj2PuK7DREcw" type="string" dataLocation="memory"/>
+  <localTypes xsi:type="soliditycontracts:Mapping" id="_SheClkxCEeyamoFIdSeJxw" keyType="_LyC9N0xCEeyamoFIdSeJxw" valueType="_wM1StUxXEeyj2PuK7DREcw"/>
+  <localTypes xsi:type="soliditycontracts:Mapping" id="_dcec9kxVEeyj2PuK7DREcw" keyType="_LyC9N0xCEeyamoFIdSeJxw" valueType="_J2Ql90xCEeyamoFIdSeJxw"/>
+  <localTypes xsi:type="soliditycontracts:Enum" id="_wM1StUxXEeyj2PuK7DREcw" entityName="Outcome Acceptance">
+    <members value="Agree"/>
+    <members value="Disagree"/>
+  </localTypes>
+  <functions xsi:type="soliditycontracts:GlobalFunction" id="_zatJcUxCEeyamoFIdSeJxw" entityName="Set Reporter" visibility="external">
+    <parameters id="_2VNLsExCEeyamoFIdSeJxw" name="Reporter" type="_LyC9N0xCEeyamoFIdSeJxw"/>
+  </functions>
+  <functions xsi:type="soliditycontracts:GlobalFunction" id="_sFiyYUxFEeyamoFIdSeJxw" entityName="Set Bonds" visibility="external">
+    <parameters id="_xiXncExFEeyamoFIdSeJxw" name="creation" type="_J2Ql90xCEeyamoFIdSeJxw"/>
+    <parameters id="_0XeMUExFEeyamoFIdSeJxw" name="validation" type="_J2Ql90xCEeyamoFIdSeJxw"/>
+  </functions>
+  <functions xsi:type="soliditycontracts:GlobalFunction" id="_6DxvMUxCEeyamoFIdSeJxw" entityName="Buy Shares" mutability="payable" visibility="external"/>
+  <functions xsi:type="soliditycontracts:GlobalFunction" id="_8DtmoUxCEeyamoFIdSeJxw" entityName="Sell Shares" visibility="external">
+    <parameters id="_XkGd4ExhEey-QZr4N-F2BA" name="To Sell" type="_J2Ql90xCEeyamoFIdSeJxw"/>
+  </functions>
+  <functions xsi:type="soliditycontracts:GlobalFunction" id="_NmSYgVBUEeyGMId-Imar3w" entityName="Claim Reporter Role"/>
+  <functions xsi:type="soliditycontracts:GlobalFunction" id="_9LLlAUxCEeyamoFIdSeJxw" entityName="Designated Report" visibility="external">
+    <parameters id="_rhDAYExUEeyj2PuK7DREcw" name="outcome" type="_jmSo-UxXEeyj2PuK7DREcw"/>
+  </functions>
+  <functions xsi:type="soliditycontracts:GlobalFunction" id="_B8v2kUxDEeyamoFIdSeJxw" entityName="Open Report" visibility="external">
+    <parameters id="_o8pxAExUEeyj2PuK7DREcw" name="outcome" type="_jmSo-UxXEeyj2PuK7DREcw"/>
+  </functions>
+  <functions xsi:type="soliditycontracts:LocalFunction" id="_CyQNUExmEeyjw6u_kicIaw" entityName="Report" visibility="private">
+    <parameters id="_D6kgQExmEeyjw6u_kicIaw" name="outcome" type="_jmSo-UxXEeyj2PuK7DREcw"/>
+  </functions>
+  <functions xsi:type="soliditycontracts:GlobalFunction" id="_Es5qAUxDEeyamoFIdSeJxw" entityName="Dispute Outcome" visibility="external">
+    <parameters id="_mYAioExXEeyj2PuK7DREcw" name="acceptance" type="_wM1StUxXEeyj2PuK7DREcw"/>
+  </functions>
+  <functions xsi:type="soliditycontracts:GlobalFunction" id="_jiUmkUxlEeyjw6u_kicIaw" entityName="Close Trading" visibility="external"/>
+  <functions xsi:type="soliditycontracts:GlobalFunction" id="_nmtCAUxlEeyjw6u_kicIaw" entityName="Allow Open Report" visibility="external"/>
+  <functions xsi:type="soliditycontracts:GlobalFunction" id="_qbKtsUxlEeyjw6u_kicIaw" entityName="Close Disputing Window" visibility="external"/>
+  <functions xsi:type="soliditycontracts:LocalFunction" id="_sNAtgExfEey-QZr4N-F2BA" entityName="Sent Creation Bond" visibility="private"/>
+  <balanceModifications id="__PLPgkxiEeyjw6u_kicIaw" entityName="Buy shares" function="_6DxvMUxCEeyamoFIdSeJxw" modifiesThisContractsBalance="onlyIncrease"/>
+  <balanceModifications id="_E13LMkxjEeyjw6u_kicIaw" entityName="Sell shares" function="_8DtmoUxCEeyamoFIdSeJxw" modifiesMsgSenderBalance="onlyIncrease" modifiesThisContractsBalance="onlyDecrease"/>
+</SmartContractModel:AccessControlContract>

@@ -1,0 +1,12 @@
+There are violations in the selected AccessControlSystem 'Augur' and SmartContracts 'Market' 'MarketManagement':
+1) Role 'Designated Reporter' can access function 'Report' indirectly through function 'Designated Report' 
+2) Role 'Shareholder' cannot modify variable 'Agree Counter' through any function
+3) Role 'Market Creator' can illegally influence variable 'Designated Reporter' by modifying variable 'Reporter Set' 
+4) Role 'Market Creator' can illegally influence variable 'Designated Reporter' through function 'Set Reporter' 
+5) Role 'Shareholder' can illegally modify variable 'Market Counter' through function 'Dispute Outcome' 
+6) FunctionToStateVariableRelation 'Agree with the reported outcome' - Violation for OCL constraint 'VariableTypeIsNoMappingWithAddressAsKeytype':
+The referenced variable is not allowed to be mapping with 'address' as its key data type
+7) FunctionToCsmRelation 'Outcome disputes are saved in CSM' - Violation for OCL constraint 'VariableTypeNeedsToBeMapping':
+The referenced variable needs to be a mapping
+8) FunctionToCsmRelation 'Outcome disputes are saved in CSM' - Violation for OCL constraint 'MappingKeyTypeNeedsToBeAddressOrAddressPayable':
+The referenced mappings key needs to have the data type 'address' or 'address payable'

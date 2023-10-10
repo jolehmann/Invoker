@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AccessControlSystem:AccessControlSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AccessControlSystem="http://sdq.kastel.kit.edu/AccessControlMetamodel/AccessControlSystem" xmlns:soliditycontracts="http://sdq.kastel.kit.edu/SolidityMetaModel/soliditycontracts" id="_vX_-cExBEeyamoFIdSeJxw" entityName="Augur">
+  <roleToVariableTuples id="_fX0ikExFEeyamoFIdSeJxw" entityName="Creator can set validity bond" role="_OkgL0UxEEeyamoFIdSeJxw">
+    <variable href="Market.smartcontractmodel#_eOEzo0xCEeyamoFIdSeJxw"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_lgg_IExFEeyamoFIdSeJxw" entityName="Creator can set creation bond" role="_OkgL0UxEEeyamoFIdSeJxw">
+    <variable href="Market.smartcontractmodel#_jVag40xCEeyamoFIdSeJxw"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_7UCq8ExHEeyamoFIdSeJxw" entityName="Shareholders can change shares" role="_k00MMUxEEeyamoFIdSeJxw">
+    <variable href="Market.smartcontractmodel#_m8LMM0xCEeyamoFIdSeJxw"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_KzEkwExIEeyamoFIdSeJxw" entityName="Creater can change bonds" role="_OkgL0UxEEeyamoFIdSeJxw">
+    <variable href="Market.smartcontractmodel#__zSIU0xFEeyamoFIdSeJxw"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_Mkv9wExIEeyamoFIdSeJxw" entityName="Creator can set reporter" role="_OkgL0UxEEeyamoFIdSeJxw">
+    <variable href="Market.smartcontractmodel#_CrMwo0xGEeyamoFIdSeJxw"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_zz5BUExJEeynGZOoHpf2pA" entityName="Outcome can be reported by reporter" role="_WjqawUxEEeyamoFIdSeJxw">
+    <variable href="Market.smartcontractmodel#_ROx7k0xWEeyj2PuK7DREcw"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_TwJLcExeEey-QZr4N-F2BA" entityName="Designated reporter closes designated reporting" role="_WjqawUxEEeyamoFIdSeJxw">
+    <variable href="Market.smartcontractmodel#__QXZw0xLEeynGZOoHpf2pA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_bw_i0ExmEeyjw6u_kicIaw" entityName="Designated reporter closes open reporting" role="_WjqawUxEEeyamoFIdSeJxw">
+    <variable href="Market.smartcontractmodel#_ZXLnE0xLEeynGZOoHpf2pA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_9wdyoExeEey-QZr4N-F2BA" entityName="Designated Reporter reported" role="_WjqawUxEEeyamoFIdSeJxw">
+    <variable href="Market.smartcontractmodel#_5vklg0xdEey-QZr4N-F2BA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_gcdzcExmEeyjw6u_kicIaw" entityName="Designated Reporter allows disputes" role="_WjqawUxEEeyamoFIdSeJxw">
+    <variable href="Market.smartcontractmodel#_btSi00xLEeynGZOoHpf2pA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_S_Ae4ExdEey-QZr4N-F2BA" entityName="First shareholder becomes OpenReporter" role="_k00MMUxEEeyamoFIdSeJxw">
+    <variable href="Market.smartcontractmodel#_GY89U0xdEey-QZr4N-F2BA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_tgtMAExJEeynGZOoHpf2pA" entityName="Outcome can be reported by open reporter" role="_XVL08UxdEey-QZr4N-F2BA">
+    <variable href="Market.smartcontractmodel#_ROx7k0xWEeyj2PuK7DREcw"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_YpKI0ExeEey-QZr4N-F2BA" entityName="Open reporter closes open reporting" role="_XVL08UxdEey-QZr4N-F2BA">
+    <variable href="Market.smartcontractmodel#_ZXLnE0xLEeynGZOoHpf2pA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_kbFlIExmEeyjw6u_kicIaw" entityName="Open reporter closes designated reporting" role="_XVL08UxdEey-QZr4N-F2BA">
+    <variable href="Market.smartcontractmodel#__QXZw0xLEeynGZOoHpf2pA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_vmrT0ExmEeyjw6u_kicIaw" entityName="Open Reporter allows disputes" role="_XVL08UxdEey-QZr4N-F2BA">
+    <variable href="Market.smartcontractmodel#_btSi00xLEeynGZOoHpf2pA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_7Tg0kExJEeynGZOoHpf2pA" entityName="Shareholders can change disputes" role="_k00MMUxEEeyamoFIdSeJxw">
+    <variable href="Market.smartcontractmodel#_sn71I0xCEeyamoFIdSeJxw"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_8NyGoExYEeyTx7SMCNNJcA" entityName="Shareholders can agree with the outcome" role="_k00MMUxEEeyamoFIdSeJxw">
+    <variable href="Market.smartcontractmodel#_pV-TI0xYEeyTx7SMCNNJcA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_-mH3AExYEeyTx7SMCNNJcA" entityName="Shareholders can disagree with the outcome" role="_k00MMUxEEeyamoFIdSeJxw">
+    <variable href="Market.smartcontractmodel#_r6Gcw0xYEeyTx7SMCNNJcA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_z9lCoExmEeyjw6u_kicIaw" entityName="Manager can open &amp; close trading" role="_LVMwsUxkEeyjw6u_kicIaw">
+    <variable href="Market.smartcontractmodel#_TA1JA0xLEeynGZOoHpf2pA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_2mEu4ExmEeyjw6u_kicIaw" entityName="Manager allows for designated report" role="_LVMwsUxkEeyjw6u_kicIaw">
+    <variable href="Market.smartcontractmodel#__QXZw0xLEeynGZOoHpf2pA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_62eNEExmEeyjw6u_kicIaw" entityName="Manager allows for open report" role="_LVMwsUxkEeyjw6u_kicIaw">
+    <variable href="Market.smartcontractmodel#_ZXLnE0xLEeynGZOoHpf2pA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_A2qN4ExnEeyjw6u_kicIaw" entityName="Manager can payout creation bond" role="_LVMwsUxkEeyjw6u_kicIaw">
+    <variable href="Market.smartcontractmodel#_sLHiA0xdEey-QZr4N-F2BA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_FLITwExnEeyjw6u_kicIaw" entityName="Manager stops disputing Window" role="_LVMwsUxkEeyjw6u_kicIaw">
+    <variable href="Market.smartcontractmodel#_btSi00xLEeynGZOoHpf2pA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_I7xT0ExnEeyjw6u_kicIaw" entityName="Manager starts market settlement" role="_LVMwsUxkEeyjw6u_kicIaw">
+    <variable href="Market.smartcontractmodel#_dyWx40xLEeynGZOoHpf2pA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_n1HfMExqEeyjw6u_kicIaw" entityName="Creator can influence when trading starts by setting the reporter &amp; bounds" role="_OkgL0UxEEeyamoFIdSeJxw" modifies="false">
+    <variable href="Market.smartcontractmodel#_TA1JA0xLEeynGZOoHpf2pA"/>
+  </roleToVariableTuples>
+  <roleToVariableTuples id="_s7Y1cExqEeyjw6u_kicIaw" entityName="Creator can influence shares by influencing when the trading starts" role="_OkgL0UxEEeyamoFIdSeJxw" modifies="false">
+    <variable href="Market.smartcontractmodel#_m8LMM0xCEeyamoFIdSeJxw"/>
+  </roleToVariableTuples>
+  <roles id="_OkgL0UxEEeyamoFIdSeJxw" entityName="Market Creator" description="The entity that created the market. Reponsible for selecting a reporter and changing the bonds" cardinality="1"/>
+  <roles id="_WjqawUxEEeyamoFIdSeJxw" entityName="Designated Reporter" description="Reporter to report the outcome within the first 24 hours after the event occurred" cardinality="1"/>
+  <roles id="_XVL08UxdEey-QZr4N-F2BA" entityName="Open Reporter" description="When open reporting is allowed, the first shareholder to do so gets the OpenReporter role" cardinality="1" prerequisite="_k00MMUxEEeyamoFIdSeJxw"/>
+  <roles id="_k00MMUxEEeyamoFIdSeJxw" entityName="Shareholder" description="Any entity that bought shares in the event. This role can add an open report or dispute the markets outcome"/>
+  <roles id="_LVMwsUxkEeyjw6u_kicIaw" entityName="Manager" description="The external managing contract that works as an oracle providing information from the real world" cardinality="1"/>
+  <roleToFunctionTuples id="_4IomQkxEEeyamoFIdSeJxw" entityName="Creater can set the designated reporter" role="_OkgL0UxEEeyamoFIdSeJxw">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_zatJcUxCEeyamoFIdSeJxw"/>
+  </roleToFunctionTuples>
+  <roleToFunctionTuples id="_-89iNFBUEeyGMId-Imar3w" entityName="First shareholder can claim the open reporter role" role="_k00MMUxEEeyamoFIdSeJxw">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_NmSYgVBUEeyGMId-Imar3w"/>
+  </roleToFunctionTuples>
+  <roleToFunctionTuples id="__0nagkxEEeyamoFIdSeJxw" entityName="Designated Reporter can report as designated" role="_WjqawUxEEeyamoFIdSeJxw">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_9LLlAUxCEeyamoFIdSeJxw"/>
+  </roleToFunctionTuples>
+  <roleToFunctionTuples id="_MeIfwkxFEeyamoFIdSeJxw" entityName="Any Shareholder can add an open report" role="_XVL08UxdEey-QZr4N-F2BA">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_B8v2kUxDEeyamoFIdSeJxw"/>
+  </roleToFunctionTuples>
+  <roleToFunctionTuples id="_kFCAI0xnEeyjw6u_kicIaw" entityName="Open reporter can report" role="_XVL08UxdEey-QZr4N-F2BA">
+    <function xsi:type="soliditycontracts:LocalFunction" href="Market.smartcontractmodel#_CyQNUExmEeyjw6u_kicIaw"/>
+  </roleToFunctionTuples>
+  <roleToFunctionTuples id="_Sk9UEkxFEeyamoFIdSeJxw" entityName="Any Shareholder can dispute the outcome" role="_k00MMUxEEeyamoFIdSeJxw">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_Es5qAUxDEeyamoFIdSeJxw"/>
+  </roleToFunctionTuples>
+  <roleToFunctionTuples id="_YOKYQkxFEeyamoFIdSeJxw" entityName="Any Shareholder can sell their shares" role="_k00MMUxEEeyamoFIdSeJxw">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_8DtmoUxCEeyamoFIdSeJxw"/>
+  </roleToFunctionTuples>
+  <roleToFunctionTuples id="_2V2kkkxFEeyamoFIdSeJxw" entityName="Creater can set the two bonds" role="_OkgL0UxEEeyamoFIdSeJxw">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_sFiyYUxFEeyamoFIdSeJxw"/>
+  </roleToFunctionTuples>
+  <roleToFunctionTuples id="_P702NExnEeyjw6u_kicIaw" entityName="Manager can close trading" role="_LVMwsUxkEeyjw6u_kicIaw">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_jiUmkUxlEeyjw6u_kicIaw"/>
+  </roleToFunctionTuples>
+  <roleToFunctionTuples id="_SdjzJExnEeyjw6u_kicIaw" entityName="Manager allows for open reports" role="_LVMwsUxkEeyjw6u_kicIaw">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_nmtCAUxlEeyjw6u_kicIaw"/>
+  </roleToFunctionTuples>
+  <roleToFunctionTuples id="_VBhktExnEeyjw6u_kicIaw" entityName="Manager closes disputing window" role="_LVMwsUxkEeyjw6u_kicIaw">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_qbKtsUxlEeyjw6u_kicIaw"/>
+  </roleToFunctionTuples>
+  <roleToFunctionTuples id="_8WmbtExpEeyjw6u_kicIaw" entityName="Manager transfers creation bond" role="_LVMwsUxkEeyjw6u_kicIaw">
+    <function xsi:type="soliditycontracts:LocalFunction" href="Market.smartcontractmodel#_sNAtgExfEey-QZr4N-F2BA"/>
+  </roleToFunctionTuples>
+  <roleExclusions id="_r8q_s0xEEeyamoFIdSeJxw" entityName="Creater cannot be designated Reporter" roles="_WjqawUxEEeyamoFIdSeJxw _OkgL0UxEEeyamoFIdSeJxw"/>
+  <roleExclusions id="_ZpGUI0xkEeyjw6u_kicIaw" entityName="Designated reporter cannot be open Reporter" roles="_XVL08UxdEey-QZr4N-F2BA _WjqawUxEEeyamoFIdSeJxw"/>
+  <roleExclusions id="_Xw8fs0xkEeyjw6u_kicIaw" entityName="Creater cannot be open Reporter" roles="_OkgL0UxEEeyamoFIdSeJxw _XVL08UxdEey-QZr4N-F2BA"/>
+  <roleExclusions id="_Swy_k0xkEeyjw6u_kicIaw" entityName="Manager cannot be the markets creator" roles="_LVMwsUxkEeyjw6u_kicIaw _OkgL0UxEEeyamoFIdSeJxw"/>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_zjV9hUxBEeyamoFIdSeJxw" entityName="Creating a new market increases the market counter">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="MarketManagement.smartcontractmodel#_oHzuUUxBEeyamoFIdSeJxw"/>
+    <variable href="MarketManagement.smartcontractmodel#_TZTe80xBEeyamoFIdSeJxw"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_nLTRN1TxEeybde4cIdM2KA" entityName="Creating a new market adds to the array">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="MarketManagement.smartcontractmodel#_oHzuUUxBEeyamoFIdSeJxw"/>
+    <variable href="MarketManagement.smartcontractmodel#_b-mvQFTxEeybde4cIdM2KA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_GzyrxUxIEeyamoFIdSeJxw" entityName="Mark reporter as set">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_zatJcUxCEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_Iy8gEUxIEeyamoFIdSeJxw">
+      <variable href="Market.smartcontractmodel#_CrMwo0xGEeyamoFIdSeJxw"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_CrMwo0xGEeyamoFIdSeJxw"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_5zATB0xoEeyjw6u_kicIaw" entityName="Start Trading if bonds are created already">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_zatJcUxCEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_CUl5kUxpEeyjw6u_kicIaw" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#__zSIU0xFEeyamoFIdSeJxw"/>
+    </conditions>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_u6WAAUxrEeyPQ88BzuemMA">
+      <variable href="Market.smartcontractmodel#_CrMwo0xGEeyamoFIdSeJxw"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_TA1JA0xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_Gk3UZUxHEeyamoFIdSeJxw" entityName="Creation bond is set">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_sFiyYUxFEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_UI1PsUxHEeyamoFIdSeJxw">
+      <variable href="Market.smartcontractmodel#__zSIU0xFEeyamoFIdSeJxw"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_jVag40xCEeyamoFIdSeJxw"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_L0O8RUxHEeyamoFIdSeJxw" entityName="Validity bond is set">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_sFiyYUxFEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_Jfst0UxHEeyamoFIdSeJxw">
+      <variable href="Market.smartcontractmodel#__zSIU0xFEeyamoFIdSeJxw"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_eOEzo0xCEeyamoFIdSeJxw"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_Cn7vVUxIEeyamoFIdSeJxw" entityName="Mark bonds as created">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_sFiyYUxFEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_F3NHsUxIEeyamoFIdSeJxw">
+      <variable href="Market.smartcontractmodel#__zSIU0xFEeyamoFIdSeJxw"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#__zSIU0xFEeyamoFIdSeJxw"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_-z-Sh0xoEeyjw6u_kicIaw" entityName="Start Trading if reporter is already set">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_sFiyYUxFEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_DmBsQUxpEeyjw6u_kicIaw" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#_CrMwo0xGEeyamoFIdSeJxw"/>
+    </conditions>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_wyje0UxrEeyPQ88BzuemMA">
+      <variable href="Market.smartcontractmodel#__zSIU0xFEeyamoFIdSeJxw"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_TA1JA0xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToCsmRelation" id="_yZxepExHEeyamoFIdSeJxw" entityName="Buying shares changes shares">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_6DxvMUxCEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_u2KBYUxcEey-QZr4N-F2BA" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#_TA1JA0xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <csm href="Market.smartcontractmodel#_m8LMM0xCEeyamoFIdSeJxw"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToCsmRelation" id="_2ecN9ExHEeyamoFIdSeJxw" entityName="Selling shares changes shares">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_8DtmoUxCEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_tCUFMUxcEey-QZr4N-F2BA" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#_TA1JA0xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <csm href="Market.smartcontractmodel#_m8LMM0xCEeyamoFIdSeJxw"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_dVXJVUxKEeynGZOoHpf2pA" entityName="Designated report of the outcome">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_9LLlAUxCEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_mHOiYUxcEey-QZr4N-F2BA" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#__QXZw0xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_ROx7k0xWEeyj2PuK7DREcw"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_yU7jd0xeEey-QZr4N-F2BA" entityName="Designated report of the outcome">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_9LLlAUxCEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_2omYEUxeEey-QZr4N-F2BA" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#__QXZw0xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_5vklg0xdEey-QZr4N-F2BA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_j7fDl0xcEey-QZr4N-F2BA" entityName="Disable designated reporting after designated report">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_9LLlAUxCEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_nNPvQUxcEey-QZr4N-F2BA" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#__QXZw0xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#__QXZw0xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_5pPId0xnEeyjw6u_kicIaw" entityName="Disable open reporting after designated report">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_9LLlAUxCEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="__I2y0UxnEeyjw6u_kicIaw" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#__QXZw0xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_ZXLnE0xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_ES_8d0xoEeyjw6u_kicIaw" entityName="Start disputing window after designated report">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_9LLlAUxCEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_It2-MUxoEeyjw6u_kicIaw" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#__QXZw0xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_btSi00xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_xW92dUxKEeynGZOoHpf2pA" entityName="Open report of the outcome">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_B8v2kUxDEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_hAXWQUxcEey-QZr4N-F2BA" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#_ZXLnE0xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_ROx7k0xWEeyj2PuK7DREcw"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_YhVUd0xcEey-QZr4N-F2BA" entityName="Disable designated reporting after open report">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_B8v2kUxDEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_hv3gkUxcEey-QZr4N-F2BA" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#_ZXLnE0xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#__QXZw0xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_kSGWV0xoEeyjw6u_kicIaw" entityName="Disable open reporting after open report">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_B8v2kUxDEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_m9zuoUxoEeyjw6u_kicIaw" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#_ZXLnE0xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_ZXLnE0xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_P8-3V0xoEeyjw6u_kicIaw" entityName="Start disputing window after open report">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_B8v2kUxDEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_WnUoYUxoEeyjw6u_kicIaw" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#_ZXLnE0xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_btSi00xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_HJ7R10xeEey-QZr4N-F2BA" entityName="Set open reporter address">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_NmSYgVBUEeyGMId-Imar3w"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_K8Ps4UxeEey-QZr4N-F2BA" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#_ZXLnE0xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_GY89U0xdEey-QZr4N-F2BA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_TPi0R0xoEeyjw6u_kicIaw" entityName="Set outcome by reporting">
+    <function xsi:type="soliditycontracts:LocalFunction" href="Market.smartcontractmodel#_CyQNUExmEeyjw6u_kicIaw"/>
+    <variable href="Market.smartcontractmodel#_ROx7k0xWEeyj2PuK7DREcw"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_b8L0R0xoEeyjw6u_kicIaw" entityName="Disable designated reporting after report">
+    <function xsi:type="soliditycontracts:LocalFunction" href="Market.smartcontractmodel#_CyQNUExmEeyjw6u_kicIaw"/>
+    <variable href="Market.smartcontractmodel#__QXZw0xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_rofVF0xoEeyjw6u_kicIaw" entityName="Disable open reporting after report">
+    <function xsi:type="soliditycontracts:LocalFunction" href="Market.smartcontractmodel#_CyQNUExmEeyjw6u_kicIaw"/>
+    <variable href="Market.smartcontractmodel#_ZXLnE0xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_wHeo50xoEeyjw6u_kicIaw" entityName="Start disputing window after report">
+    <function xsi:type="soliditycontracts:LocalFunction" href="Market.smartcontractmodel#_CyQNUExmEeyjw6u_kicIaw"/>
+    <variable href="Market.smartcontractmodel#_btSi00xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_jhXQN0xYEeyTx7SMCNNJcA" entityName="Agree with the reported outcome">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_Es5qAUxDEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_SK7zEUxcEey-QZr4N-F2BA" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#_btSi00xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_sn71I0xCEeyamoFIdSeJxw"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_x7UYV0xYEeyTx7SMCNNJcA" entityName="Disagree with the reported outcome">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_Es5qAUxDEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_Ud7JYUxcEey-QZr4N-F2BA" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#_btSi00xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_r6Gcw0xYEeyTx7SMCNNJcA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToCsmRelation" id="__JPwBExJEeynGZOoHpf2pA" entityName="Outcome disputes are saved in CSM">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_Es5qAUxDEeyamoFIdSeJxw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_VUV0AUxcEey-QZr4N-F2BA" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#_btSi00xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <csm href="MarketManagement.smartcontractmodel#_TZTe80xBEeyamoFIdSeJxw"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_VovxAUxMEeynGZOoHpf2pA" entityName="Close trading phase">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_jiUmkUxlEeyjw6u_kicIaw"/>
+    <variable href="Market.smartcontractmodel#_TA1JA0xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_IgzkN0xpEeyjw6u_kicIaw" entityName="Allow designated report after trading">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_jiUmkUxlEeyjw6u_kicIaw"/>
+    <variable href="Market.smartcontractmodel#__QXZw0xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_sFioB0xpEeyjw6u_kicIaw" entityName="Disallow designated report">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_nmtCAUxlEeyjw6u_kicIaw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_v3Yh8UxpEeyjw6u_kicIaw">
+      <variable href="Market.smartcontractmodel#_5vklg0xdEey-QZr4N-F2BA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#__QXZw0xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_jOAFx0xMEeynGZOoHpf2pA" entityName="Allow open report">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_nmtCAUxlEeyjw6u_kicIaw"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_q9L40UxpEeyjw6u_kicIaw">
+      <variable href="Market.smartcontractmodel#_5vklg0xdEey-QZr4N-F2BA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_ZXLnE0xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_rzTut0xMEeynGZOoHpf2pA" entityName="Close disputing window">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_qbKtsUxlEeyjw6u_kicIaw"/>
+    <variable href="Market.smartcontractmodel#_btSi00xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_mCOTV0xsEeyPQ88BzuemMA" entityName="Pay out creation bond after closing disputing window">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_qbKtsUxlEeyjw6u_kicIaw"/>
+    <variable href="Market.smartcontractmodel#_sLHiA0xdEey-QZr4N-F2BA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_zrPUR0xMEeynGZOoHpf2pA" entityName="Activate settlement after disputes">
+    <function xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_qbKtsUxlEeyjw6u_kicIaw"/>
+    <variable href="Market.smartcontractmodel#_dyWx40xLEeynGZOoHpf2pA"/>
+  </functionToVariableTuples>
+  <functionToVariableTuples xsi:type="AccessControlSystem:FunctionToStateVariableRelation" id="_AtvbF0xqEeyjw6u_kicIaw" entityName="Creation bond marked as transferred">
+    <function xsi:type="soliditycontracts:LocalFunction" href="Market.smartcontractmodel#_sNAtgExfEey-QZr4N-F2BA"/>
+    <conditions xsi:type="AccessControlSystem:BooleanVariableContext" id="_F7eEMUxqEeyjw6u_kicIaw" valueToCheck="true">
+      <variable href="Market.smartcontractmodel#_dyWx40xLEeynGZOoHpf2pA"/>
+    </conditions>
+    <variable href="Market.smartcontractmodel#_sLHiA0xdEey-QZr4N-F2BA"/>
+  </functionToVariableTuples>
+  <functionToFunctionTuples id="_GiPtJkxmEeyjw6u_kicIaw" entityName="Open report calls report">
+    <caller xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_B8v2kUxDEeyamoFIdSeJxw"/>
+    <callee xsi:type="soliditycontracts:LocalFunction" href="Market.smartcontractmodel#_CyQNUExmEeyjw6u_kicIaw"/>
+  </functionToFunctionTuples>
+  <functionToFunctionTuples id="_JNzUdkxmEeyjw6u_kicIaw" entityName="Designated report calls report">
+    <caller xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_9LLlAUxCEeyamoFIdSeJxw"/>
+    <callee xsi:type="soliditycontracts:LocalFunction" href="Market.smartcontractmodel#_CyQNUExmEeyjw6u_kicIaw"/>
+  </functionToFunctionTuples>
+  <functionToFunctionTuples id="_SZXMdmJcEeyb_7wf7kfGgw" entityName="Closing the disputing window sents the creation bond">
+    <caller xsi:type="soliditycontracts:GlobalFunction" href="Market.smartcontractmodel#_qbKtsUxlEeyjw6u_kicIaw"/>
+    <callee xsi:type="soliditycontracts:LocalFunction" href="Market.smartcontractmodel#_sNAtgExfEey-QZr4N-F2BA"/>
+  </functionToFunctionTuples>
+  <variableToVariableTuples id="_fndPJ0xHEeyamoFIdSeJxw" entityName="Set reporter only once">
+    <influencer href="Market.smartcontractmodel#_CrMwo0xGEeyamoFIdSeJxw"/>
+    <influenced href="Market.smartcontractmodel#_3w1fY0xGEeyamoFIdSeJxw"/>
+  </variableToVariableTuples>
+  <variableToVariableTuples id="_jcXrN0xHEeyamoFIdSeJxw" entityName="Set validity bond only once">
+    <influencer href="Market.smartcontractmodel#__zSIU0xFEeyamoFIdSeJxw"/>
+    <influenced href="Market.smartcontractmodel#_eOEzo0xCEeyamoFIdSeJxw"/>
+  </variableToVariableTuples>
+  <variableToVariableTuples id="_nIUYh0xHEeyamoFIdSeJxw" entityName="Set creation bond only once">
+    <influencer href="Market.smartcontractmodel#__zSIU0xFEeyamoFIdSeJxw"/>
+    <influenced href="Market.smartcontractmodel#_jVag40xCEeyamoFIdSeJxw"/>
+  </variableToVariableTuples>
+  <variableToVariableTuples id="_LH33p0xqEeyjw6u_kicIaw" entityName="Activate trading after setting reporter">
+    <influencer href="Market.smartcontractmodel#__zSIU0xFEeyamoFIdSeJxw"/>
+    <influenced href="Market.smartcontractmodel#_TA1JA0xLEeynGZOoHpf2pA"/>
+  </variableToVariableTuples>
+  <variableToVariableTuples id="_P5qLp0xqEeyjw6u_kicIaw" entityName="Activate trading after creating bonds">
+    <influencer href="Market.smartcontractmodel#_CrMwo0xGEeyamoFIdSeJxw"/>
+    <influenced href="Market.smartcontractmodel#_TA1JA0xLEeynGZOoHpf2pA"/>
+  </variableToVariableTuples>
+</AccessControlSystem:AccessControlSystem>
