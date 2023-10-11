@@ -46,7 +46,7 @@ public class Invoker {
 		
 		// ACG Plugin
 		AccessControlGeneratorHandler aCGHandler = new AccessControlGeneratorHandler();
-//		String plugInIDACG = aCGHandler.getPlugInID();
+		String plugInIDACG = aCGHandler.getPlugInID();
 //		Bundle aCGBundle = Platform.getBundle(plugInIDACG);
 //		System.out.println(aCGBundle);
 //		System.out.println(aCGBundle.getState());
@@ -60,7 +60,7 @@ public class Invoker {
 		
 		try {
 			//aCGBundle.start();
-			aCGHandler.executeEcore2TxtGenerator(files, event, plugInID);
+			aCGHandler.executeEcore2TxtGenerator(files, event, plugInIDACG);
 			System.out.println("success");
 		} catch (Exception e) {
 			e.printStackTrace();
